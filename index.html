@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TS90 Full Screen</title>
+    <title>TS90 and ZYT90</title>
     <style>
       html,
       body {
@@ -12,14 +12,13 @@
 
       .container {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100%;
         background-color: white;
       }
 
-      .text-above {
+      .text {
         font-size: 20vw;
         font-family: Arial, sans-serif;
         color: black;
@@ -27,17 +26,12 @@
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       }
 
-      .text-below {
-        font-size: 20vw;
-        font-family: Arial, sans-serif;
-        color: black;
-        text-align: center;
-        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+      .heart {
+        color: darkred;
       }
 
       @media screen and (max-width: 767px) {
-        .text-above,
-        .text-below {
+        .text {
           font-size: 40vw;
         }
       }
@@ -45,8 +39,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="text-above">TS90</div>
-      <div class="text-below">L</div>
+      <div class="text">TS90 &#10084; ZYT90</div>
     </div>
   </body>
 </html>
