@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Big Rainbow L</title>
+    <style>
+      .big-l {
+        font-size: 200px;
+        line-height: 1;
+        text-align: center;
+        padding: 100px;
+        border: 1px solid black;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: rainbow 5s linear infinite;
+      }
+      
+      @keyframes rainbow {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="big-l">L</div>
+  </body>
+</html>
